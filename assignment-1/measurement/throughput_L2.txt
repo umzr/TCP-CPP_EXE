@@ -1,0 +1,13 @@
+------------------------------------------------------------
+Client connecting to 10.0.0.3, TCP port 25565
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[ 35] local 10.0.0.4 port 33160 connected with 10.0.0.3 port 25565
+[ ID] Interval       Transfer     Bandwidth
+[ 35]  0.0-20.8 sec  57.1 MBytes  23.0 Mbits/sec
+------------------------------------------------------------
+Server listening on TCP port 25565
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[ 36] local 10.0.0.3 port 25565 connected with 10.0.0.4 port 33160
+[ 36]  0.0-23.5 sec  57.1 MBytes  20.4 Mbits/sec

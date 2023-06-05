@@ -1,0 +1,13 @@
+------------------------------------------------------------
+Client connecting to 10.0.0.1, TCP port 8889
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[ 35] local 10.0.0.9 port 51746 connected with 10.0.0.1 port 8889
+[ ID] Interval       Transfer     Bandwidth
+[ 35]  0.0-20.3 sec  14.2 MBytes  5.88 Mbits/sec
+------------------------------------------------------------
+Server listening on TCP port 8889
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[ 36] local 10.0.0.1 port 8889 connected with 10.0.0.9 port 51742
+[ 36]  0.0-26.7 sec  18.2 MBytes  5.72 Mbits/sec

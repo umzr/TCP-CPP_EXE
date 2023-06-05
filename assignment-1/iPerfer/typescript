@@ -1,0 +1,29 @@
+Script started on 2022-01-31 04:17:47+0000
+root@csci4430:~/Desktop/github/csci4430_assignment/assignment-1/iPerfer# iperf 
+-s -p 8888 -i 1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cend
+
+Command 'end' not found, did you mean:
+
+  command 'gnd' from snap gnd (master)
+  command 'env' from deb coreutils
+  command 'send' from deb mailutils-mh
+  command 'send' from deb mmh
+  command 'send' from deb nmh
+  command 'ent' from deb ent
+  command 'esd' from deb pulseaudio-esound-compat
+  command 'and' from deb and
+  command 'bnd' from deb bnd
+  command 'ed' from deb ed
+  command 'nd' from deb nd
+  command 'eid' from deb id-utils
+  command 'snd' from deb snd-gtk-jack
+  command 'snd' from deb snd-gtk-pulse
+  command 'snd' from deb snd-nox
+
+See 'snap info <snapname>' for additional versions.
+
+root@csci4430:~/Desktop/github/csci4430_assignment/assignment-1/iPerfer# exit
+exit
+
+Script done on 2022-01-31 04:18:02+0000

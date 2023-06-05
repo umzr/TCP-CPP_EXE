@@ -1,0 +1,32 @@
+2)    Predicted throughput: L1 L2 L3 L4 = 15.5Mpbs
+      Predicted latency: sum of latency in L1 L2 L3 L4 = 13+13+23+85 = 134 ms
+      Actual throughput: 15.4 Mbps
+      Actual latency: 137.565 ms
+      Explanation of results: same prediciton. 
+
+3.1)  Predicted throughput: 7.7Mpbs (half of q2 in actual throughput)
+      Predicted latency: 137.565 ms (same as q2 in actual latency)
+      Actual throughput: h2 - h7: 7.10Mpbs, h1 - h9: 8.69Mpbs
+      Actual latency: h2 - h7: 139.589 ms, h1 - h9: 137.843ms
+      Explanation of results: For the latency, not the same prediction time of the ping are fluctuated. some icmp_seq will delay. And make the average latency are not same with the prediction.
+							  For the throughtput, not the same prediction,  but it is near the prediction. it is because there are some factor like latency unstable will affect throughtput.								 
+
+3.2)  Predicted throughput: near to Q2 actual throughput 15.4/3 = 5.13Mbps
+      Predicted latency:	near to Q2 actual latency 137.565
+      Actual throughput:	h2 - h7: 4.07Mbps, h1 - h9: 4.87Mbps, h5 - h6: 5.35Mbps  
+      Actual latency:		h2 - h7: 140.927 ms, h1 - h9: 138.739ms, h5 - h6: 136.577ms
+      Explanation of results: For the latency, it is near to the prediction. actually, I tried lots in this latency test. I think the delay of hit ENTER affect the latency difference.
+							  For the throughput, it is near to the prediction. The delay of hit ENTER affect the throughput difference
+
+4)    Predicted throughput: since L_3 bandwidth is 15Mbps. and each throughput of each connection would be find the smallest bandwidth they have shared. therefore, h1-h9 and h3-h8 share 15Mbps. And one thoughput would be higher than 15/2 = 7.5mbps, one would be lower than 7.5 Mbps.
+ 	  Predicted latency:	~137.565 ms in h1 - h9 and 13 + 23 = ~36ms in h3 - h8 
+      Actual throughput:	h1 - h9: 5.72Mbps, h3 - h8: 14.3Mbps
+      Actual latency:		h1 - h9: 130.269ms, h3 - h8: 35.491ms
+      Explanation of results: For the throughput, it is smiliar to my prediction.
+							  For the latency, it is similiar to my prediction.
+5)    Explanation of results:
+							HK: 47.7ms (cuhk)
+							CN: 27.0ms (baidu)
+							US: 31.7ms	(google)
+							there are some different between connecting to 3 destination. maybe it affected by the CPU and RAM 
+							processing.  expecially, my testing is in the VM.

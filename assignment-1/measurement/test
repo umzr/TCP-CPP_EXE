@@ -1,0 +1,82 @@
+mininet> h1 ping -c 20 h3
+PING 10.0.0.3 (10.0.0.3) 56(84) bytes of data.
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=86.4 ms
+64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=86.0 ms
+64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=130 ms
+64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=81.8 ms
+64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=91.1 ms
+64 bytes from 10.0.0.3: icmp_seq=6 ttl=64 time=81.1 ms
+64 bytes from 10.0.0.3: icmp_seq=7 ttl=64 time=88.7 ms
+64 bytes from 10.0.0.3: icmp_seq=8 ttl=64 time=85.9 ms
+64 bytes from 10.0.0.3: icmp_seq=9 ttl=64 time=82.3 ms
+64 bytes from 10.0.0.3: icmp_seq=10 ttl=64 time=81.5 ms
+64 bytes from 10.0.0.3: icmp_seq=11 ttl=64 time=84.3 ms
+64 bytes from 10.0.0.3: icmp_seq=12 ttl=64 time=82.3 ms
+64 bytes from 10.0.0.3: icmp_seq=13 ttl=64 time=82.0 ms
+64 bytes from 10.0.0.3: icmp_seq=14 ttl=64 time=82.1 ms
+64 bytes from 10.0.0.3: icmp_seq=15 ttl=64 time=82.0 ms
+64 bytes from 10.0.0.3: icmp_seq=16 ttl=64 time=81.6 ms
+64 bytes from 10.0.0.3: icmp_seq=17 ttl=64 time=82.3 ms
+64 bytes from 10.0.0.3: icmp_seq=18 ttl=64 time=81.9 ms
+64 bytes from 10.0.0.3: icmp_seq=19 ttl=64 time=81.4 ms
+64 bytes from 10.0.0.3: icmp_seq=20 ttl=64 time=82.3 ms
+
+--- 10.0.0.3 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19066ms
+rtt min/avg/max/mdev = 81.185/85.899/130.003/10.463 ms
+
+mininet> h1 ping -c 20 h3
+PING 10.0.0.3 (10.0.0.3) 56(84) bytes of data.
+64 bytes from 10.0.0.3: icmp_seq=1 ttl=64 time=86.4 ms
+64 bytes from 10.0.0.3: icmp_seq=2 ttl=64 time=86.0 ms
+64 bytes from 10.0.0.3: icmp_seq=3 ttl=64 time=130 ms
+64 bytes from 10.0.0.3: icmp_seq=4 ttl=64 time=81.8 ms
+64 bytes from 10.0.0.3: icmp_seq=5 ttl=64 time=91.1 ms
+64 bytes from 10.0.0.3: icmp_seq=6 ttl=64 time=81.1 ms
+64 bytes from 10.0.0.3: icmp_seq=7 ttl=64 time=88.7 ms
+64 bytes from 10.0.0.3: icmp_seq=8 ttl=64 time=85.9 ms
+64 bytes from 10.0.0.3: icmp_seq=9 ttl=64 time=82.3 ms
+64 bytes from 10.0.0.3: icmp_seq=10 ttl=64 time=81.5 ms
+64 bytes from 10.0.0.3: icmp_seq=11 ttl=64 time=84.3 ms
+64 bytes from 10.0.0.3: icmp_seq=12 ttl=64 time=82.3 ms
+64 bytes from 10.0.0.3: icmp_seq=13 ttl=64 time=82.0 ms
+64 bytes from 10.0.0.3: icmp_seq=14 ttl=64 time=82.1 ms
+64 bytes from 10.0.0.3: icmp_seq=15 ttl=64 time=82.0 ms
+64 bytes from 10.0.0.3: icmp_seq=16 ttl=64 time=81.6 ms
+64 bytes from 10.0.0.3: icmp_seq=17 ttl=64 time=82.3 ms
+64 bytes from 10.0.0.3: icmp_seq=18 ttl=64 time=81.9 ms
+64 bytes from 10.0.0.3: icmp_seq=19 ttl=64 time=81.4 ms
+64 bytes from 10.0.0.3: icmp_seq=20 ttl=64 time=82.3 ms
+
+--- 10.0.0.3 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19066ms
+rtt min/avg/max/mdev = 81.185/85.899/130.003/10.463 ms
+
+mininet> h3 ping -c 20 h4
+PING 10.0.0.4 (10.0.0.4) 56(84) bytes of data.
+64 bytes from 10.0.0.4: icmp_seq=1 ttl=64 time=20.7 ms
+64 bytes from 10.0.0.4: icmp_seq=2 ttl=64 time=29.2 ms
+64 bytes from 10.0.0.4: icmp_seq=3 ttl=64 time=27.3 ms
+64 bytes from 10.0.0.4: icmp_seq=4 ttl=64 time=25.3 ms
+64 bytes from 10.0.0.4: icmp_seq=5 ttl=64 time=23.3 ms
+64 bytes from 10.0.0.4: icmp_seq=6 ttl=64 time=22.0 ms
+64 bytes from 10.0.0.4: icmp_seq=7 ttl=64 time=21.4 ms
+64 bytes from 10.0.0.4: icmp_seq=8 ttl=64 time=21.3 ms
+64 bytes from 10.0.0.4: icmp_seq=9 ttl=64 time=21.3 ms
+64 bytes from 10.0.0.4: icmp_seq=10 ttl=64 time=21.4 ms
+64 bytes from 10.0.0.4: icmp_seq=11 ttl=64 time=25.2 ms
+64 bytes from 10.0.0.4: icmp_seq=12 ttl=64 time=31.6 ms
+64 bytes from 10.0.0.4: icmp_seq=13 ttl=64 time=20.9 ms
+64 bytes from 10.0.0.4: icmp_seq=14 ttl=64 time=23.4 ms
+64 bytes from 10.0.0.4: icmp_seq=15 ttl=64 time=21.5 ms
+64 bytes from 10.0.0.4: icmp_seq=16 ttl=64 time=20.5 ms
+64 bytes from 10.0.0.4: icmp_seq=17 ttl=64 time=21.2 ms
+64 bytes from 10.0.0.4: icmp_seq=18 ttl=64 time=29.4 ms
+64 bytes from 10.0.0.4: icmp_seq=19 ttl=64 time=20.3 ms
+64 bytes from 10.0.0.4: icmp_seq=20 ttl=64 time=21.9 ms
+
+--- 10.0.0.4 ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19244ms
+rtt min/avg/max/mdev = 20.340/23.506/31.665/3.312 ms
+
+

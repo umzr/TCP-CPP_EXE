@@ -1,0 +1,26 @@
+./iPerfer -s -p 8888
+
+./iPerfer -c -h "test001" -p 8888 -t 9999
+
+./iPerfer -c -h localhost -p 8888 -t 5
+
+./client localhost 8888 "hello server"
+
+./iPerfer -s -p 8888
+
+./client -c -h 10.0.0.1 -p 8888 -t 10
+
+ iperf -s
+
+ iperf -c 10.0.0.1 -t 10 -w1k
+
+h2 ping h1 -c 20 h1
+
+script
+
+iperf -s -p 8888 -i 1
+iperf -c 10.0.0.3 -p 8888 -t 20 -w 1k
+
+
+iperf -s -p 25565
+iperf -c 10.0.0.3 -p 25565 -t 20

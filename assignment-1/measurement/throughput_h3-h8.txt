@@ -1,0 +1,12 @@
+------------------------------------------------------------
+Client connecting to 10.0.0.3, TCP port 8888
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[ 35] local 10.0.0.8 port 51016 connected with 10.0.0.3 port 8888
+[ 35]  0.0-20.8 sec  35.5 MBytes  14.3 Mbits/sec
+------------------------------------------------------------
+Server listening on TCP port 8889
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[ 36] local 10.0.0.3 port 8888 connected with 10.0.0.8 port 51036
+[ 36]  0.0-25.0 sec  43.2 MBytes  14.5 Mbits/sec
